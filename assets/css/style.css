@@ -11153,3 +11153,15 @@ p {
   border-width: 1px;
   border-color: #ffffff;
 }
+.footer {
+  color: #c8c8c8;
+}
+.footer .fa-ul {
+  margin-left: 0px;
+}
+.footer a {
+  color: #c8c8c8;
+}
+.footer-copyright {
+  padding: 3px 0;
+}

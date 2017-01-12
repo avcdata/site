@@ -55,3 +55,9 @@ a:focus {
 .service .icon {
   background: #0575e6;
 }
+.footer .footer-header {
+  color: #0575e6;
+}
+.footer-copyright {
+  background: #0575e6;
+}
