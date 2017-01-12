@@ -6829,7 +6829,7 @@ button.close {
 }
 .brand-logo {
   float: left;
-  border: 15px solid;
+  border: none;
   border-color: #4DCACA #31A3A3 #1D8888;
   margin-right: 10px;
   margin-top: -5px;
@@ -6971,7 +6971,6 @@ button.close {
 }
 .content.has-bg .content-bg:before {
   content: '';
-  background: url(../img/content-bg-cover.png);
   position: absolute;
   left: 0;
   right: 0;
@@ -8668,7 +8667,7 @@ a.text-info:focus {
   color: #6dc5de !important;
 }
 .text-primary {
-  color: #348fe2 !important;
+  color: #0575e6 !important;
 }
 a.text-primary:hover,
 a.text-primary:focus {
@@ -8762,7 +8761,7 @@ a.text-white:focus {
   background: #33bdbd !important;
 }
 .bg-blue {
-  background: #348fe2 !important;
+  background: #0575e6 !important;
 }
 .bg-blue-darker {
   background: #2a72b5 !important;
@@ -9609,8 +9608,8 @@ body.page-navbar-fixed-top-sm {
 }
 .btn.btn-primary {
   color: #fff;
-  background: #348fe2;
-  border-color: #348fe2;
+  background: #0575e6;
+  border-color: #0575e6;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus,
@@ -10155,7 +10154,7 @@ legend {
 }
 .badge.badge-primary,
 .label.label-primary {
-  background: #348fe2;
+  background: #0575e6;
 }
 .badge.badge-inverse,
 .label.label-inverse {
@@ -10764,7 +10763,7 @@ legend {
 a.list-group-item.active,
 a.list-group-item.active:hover,
 a.list-group-item.active:focus {
-  background: #348fe2;
+  background: #0575e6;
 }
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {

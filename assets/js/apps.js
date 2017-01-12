@@ -28,7 +28,7 @@ Website: http://www.seantheme.com/color-admin-v2.0/frontend/one-page-parallax/
 /* 01. Handle Home Content Height
 ------------------------------------------------ */
 var handleHomeContentHeight = function() {
-    $('#home').height($(window).height());
+    $('#home').height(($(window).height())*0.8);
 };
 
 
