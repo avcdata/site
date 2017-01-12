@@ -182,7 +182,6 @@ var handleThemePageControl = function() {
     });
 };
 
-
 /* Application Controller
 ------------------------------------------------ */
 var App = function () {
