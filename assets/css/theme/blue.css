@@ -52,3 +52,6 @@ a:focus {
 .footer .footer-brand-logo {
   border-color: #2F83CF #2a72b5 #1f5688;
 }
+.service .icon {
+  background: #0575e6;
+}

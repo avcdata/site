@@ -1,696 +1,541 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 8]>
+<html lang="en" class="ie8"> <![endif]-->
 <!--[if !IE]><!-->
 <html lang="en">
 <!--<![endif]-->
 <head>
-	<meta charset="utf-8" />
-	<title>AVC</title>
-	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
-	<meta content="" name="description" />
-	<meta content="" name="author" />
-	
-	<!-- ================== BEGIN BASE CSS STYLE ================== -->
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
-	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-	<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-	<link href="assets/css/animate.min.css" rel="stylesheet" />
-	<link href="assets/css/style.min.css" rel="stylesheet" />
-	<link href="assets/css/style-responsive.min.css" rel="stylesheet" />
-	<link href="assets/css/theme/blue.css" id="theme" rel="stylesheet" />
-	<!-- ================== END BASE CSS STYLE ================== -->
-	
-	<!-- ================== BEGIN BASE JS ================== -->
-	<script src="assets/plugins/pace/pace.min.js"></script>
-	<!-- ================== END BASE JS ================== -->
+    <meta charset="utf-8"/>
+    <title>AVC</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+
+    <!-- ================== BEGIN BASE CSS STYLE ================== -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"/>
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="assets/css/animate.min.css" rel="stylesheet"/>
+    <link href="assets/css/style.min.css" rel="stylesheet"/>
+    <link href="assets/css/style-responsive.min.css" rel="stylesheet"/>
+    <link href="assets/css/theme/blue.css" id="theme" rel="stylesheet"/>
+    <!-- ================== END BASE CSS STYLE ================== -->
+
+    <!-- ================== BEGIN BASE JS ================== -->
+    <script src="assets/plugins/pace/pace.min.js"></script>
+    <!-- ================== END BASE JS ================== -->
 </head>
 <body data-spy="scroll" data-target="#header-navbar" data-offset="51">
-    <!-- begin #page-container -->
-    <div id="page-container" class="fade">
-        <!-- begin #header -->
-        <div id="header" class="header navbar navbar-default navbar-fixed-top">
-            <!-- begin container -->
-            <div class="container">
-                <!-- begin navbar-header -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-navbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="index.html" class="navbar-brand">
+<!-- begin #page-container -->
+<div id="page-container" class="fade">
+    <!-- begin #header -->
+    <div id="header" class="header navbar navbar-default navbar-fixed-top">
+        <!-- begin container -->
+        <div class="container">
+            <!-- begin navbar-header -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#header-navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">
                         <span class="brand-logo">
-                            <img src="assets/img/logo.png" alt="Logo" />
+                            <img src="assets/img/logo.png" alt="Logo"/>
                         </span>
-                        <!--<span class="brand-text">-->
-                            <!--<span class="text-theme">奥维云网</span>AVC-->
-                        <!--</span>-->
-                    </a>
+                    <!--<span class="brand-text">-->
+                    <!--<span class="text-theme">奥维云网</span>AVC-->
+                    <!--</span>-->
+                </a>
+            </div>
+            <!-- end navbar-header -->
+            <!-- begin navbar-collapse -->
+            <div class="collapse navbar-collapse" id="header-navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active dropdown">
+                        <a href="#home" data-click="scroll-to-target">首页</a>
+                    </li>
+                    <li><a href="#solution" data-click="scroll-to-target">解决方案</a></li>
+                    <li><a href="#product" data-click="scroll-to-target">产品服务</a></li>
+                    <li><a href="#report" data-click="scroll-to-target">数据报告</a></li>
+                    <li><a href="#footer" data-click="scroll-to-target">认识AVC</a></li>
+                    <!-- <li><a href="#client" data-click="scroll-to-target">CLIENT</a></li>
+                    <li><a href="#pricing" data-click="scroll-to-target">PRICING</a></li>
+                    <li><a href="#contact" data-click="scroll-to-target">CONTACT</a></li> -->
+                </ul>
+            </div>
+            <!-- end navbar-collapse -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end #header -->
+
+    <!-- begin #home -->
+    <div id="home" class="content has-bg home">
+        <!-- begin content-bg -->
+        <div class="content-bg">
+            <img src="assets/img/home-bg.png" alt="Home"/>
+        </div>
+        <!-- end content-bg -->
+        <!-- begin container -->
+        <div class="container home-content">
+            <!--<h1>奥维云网（AVC）</h1>-->
+            <div class="row">
+                <div class="col-md-5 col-md-offset-2">
+                    <h2 class="text-left" style="font-size: 35px;">垂直领域的大数据<br/>
+                        应用技术和解决方案服务商</h2>
+                    <p class="text-left">
+                        面向零售交易大数据、家庭互联网用户大数据、企业大数据、金融大数据和酒店及旅游大数据领域。
+                    </p>
+                    <hr width="35px" align="left">
+                    <br/>
+                    <a href="#" class="btn btn-outline pull-left">开启新视野　领略全服务</a>
+                    <br/>
+
                 </div>
-                <!-- end navbar-header -->
-                <!-- begin navbar-collapse -->
-                <div class="collapse navbar-collapse" id="header-navbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active dropdown">
-                            <a href="#home" data-click="scroll-to-target" >首页</a>
-                        </li>
-                        <li><a href="#solution" data-click="scroll-to-target">解决方案</a></li>
-                        <li><a href="#product" data-click="scroll-to-target">产品服务</a></li>
-                        <li><a href="#report" data-click="scroll-to-target">数据报告</a></li>
-                        <li><a href="#footer" data-click="scroll-to-target">认识AVC</a></li>
-                        <!-- <li><a href="#client" data-click="scroll-to-target">CLIENT</a></li>
-                        <li><a href="#pricing" data-click="scroll-to-target">PRICING</a></li>
-                        <li><a href="#contact" data-click="scroll-to-target">CONTACT</a></li> -->
+            </div>
+
+
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end #home -->
+
+    <!-- begin #team -->
+    <div id="solution" class="content" data-scrollview="true">
+        <!-- begin container -->
+        <div class="container">
+            <h2 class="content-title">解决方案</h2>
+            <!-- <p class="content-desc">
+                Phasellus suscipit nisi hendrerit metus pharetra dignissim. Nullam nunc ante, viverra quis<br />
+                ex non, porttitor iaculis nisi.
+            </p> -->
+            <!-- begin row -->
+            <div class="row m-t-40 p-t-20">
+                <!-- begin col-4 -->
+                <div class="col-md-4 col-sm-4">
+                    <!-- begin team -->
+                    <div class="team">
+                        <div class="image text-theme" data-animation="true" data-animation-type="flipInX">
+                            <!--<img src="assets/img/user-1.jpg" alt="Ryan Teller" />-->
+                            <i class="fa fa-4x fa-shopping-bag"></i>
+                        </div>
+                        <div class="info">
+                            <h5 class="name">零售大数据</h5>
+                            <p>为企业呈现多维度的、直观的、可查询的数据体系，包含交易数据、价格管控、评论分析、口碑洞察等</p>
+                        </div>
+                    </div>
+                    <!-- end team -->
+                </div>
+                <!-- end col-4 -->
+                <!-- begin col-4 -->
+                <div class="col-md-4 col-sm-4">
+                    <!-- begin team -->
+                    <div class="team">
+                        <div class="image text-theme" data-animation="true" data-animation-type="flipInX">
+                            <!--<img src="assets/img/user-1.jpg" alt="Ryan Teller" />-->
+                            <i class="fa fa-4x fa-users"></i>
+                        </div>
+                        <div class="info">
+                            <h5 class="name">用户大数据</h5>
+                            <p>通过与国内主流的电视机、OTT盒子、IPTV盒子终端厂商进行数据对接，客观、系统性采集用户从开机到关机间的所有观看行为</p>
+                        </div>
+                    </div>
+                    <!-- end team -->
+                </div>
+                <!-- end col-4 -->
+                <!-- begin col-4 -->
+                <div class="col-md-4 col-sm-4">
+                    <!-- begin team -->
+                    <div class="team">
+                        <div class="image text-theme" data-animation="true" data-animation-type="flipInX">
+                            <!--<img src="assets/img/user-1.jpg" alt="Ryan Teller" />-->
+                            <i class="fa fa-4x fa-th-large"></i>
+                        </div>
+                        <div class="info">
+                            <h5 class="name">大数据技术和应用平台</h5>
+                            <p>基于用户的业务需求设计大数据系统架构和开发实施，帮助企业搭建大数据平台 </p>
+                        </div>
+                    </div>
+                    <!-- end team -->
+                </div>
+                <!-- end col-4 -->
+            </div>
+            <!-- end row -->
+            <!-- begin row -->
+            <div class="row m-t-40">
+                <!-- begin col-4 -->
+                <div class="col-md-4 col-sm-4">
+                    <!-- begin team -->
+                    <div class="team">
+                        <div class="image text-theme" data-animation="true" data-animation-type="flipInX">
+                            <!--<img src="assets/img/user-1.jpg" alt="Ryan Teller" />-->
+                            <i class="fa fa-4x fa-bed"></i>
+                        </div>
+                        <div class="info">
+                            <h4 class="name">酒旅大数据</h4>
+                            <p>采用高密度数据采集、高效的数据处理平台及深度集成的算法，研发了景区人流量预测、酒店品牌价值及价格分析等模型</p>
+                        </div>
+                    </div>
+                    <!-- end team -->
+                </div>
+                <!-- end col-4 -->
+                <!-- begin col-4 -->
+                <div class="col-md-4 col-sm-4">
+                    <!-- begin team -->
+                    <div class="team">
+                        <div class="image text-theme" data-animation="true" data-animation-type="flipInX">
+                            <!--<img src="assets/img/user-1.jpg" alt="Ryan Teller" />-->
+                            <i class="fa fa-4x fa-home"></i>
+                        </div>
+                        <div class="info">
+                            <h5 class="name">地产大数据</h5>
+                            <p>对房地产领域土地出让信息、新建项目地块信息，以及相关的家装、精装市场及其配套部品产业链跟踪研究</p>
+                        </div>
+                    </div>
+                    <!-- end team -->
+                </div>
+                <!-- end col-4 -->
+                <!-- begin col-4 -->
+                <div class="col-md-4 col-sm-4">
+                    <!-- begin team -->
+                    <div class="team">
+                        <div class="image text-theme" data-animation="true" data-animation-type="flipInX">
+                            <!--<img src="assets/img/user-1.jpg" alt="Ryan Teller" />-->
+                            <i class="fa fa-4x fa-industry"></i>
+                        </div>
+                        <div class="info">
+                            <h5 class="name">工业大数据</h5>
+                            <p>以大数据思维和技术能力，帮助企业提升大数据资产价值、打造“智慧工厂”、实现“智能制造”的大数据基础设施与应用平台 </p>
+                        </div>
+                    </div>
+                    <!-- end team -->
+                </div>
+                <!-- end col-4 -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end #team -->
+
+    <!-- begin #quote -->
+    <div id="quote" class="content has-bg" data-scrollview="true">
+        <!-- begin content-bg -->
+        <div class="content-bg">
+            <img src="assets/img/quote.png" alt="Quote"/>
+        </div>
+        <!-- end content-bg -->
+        <!-- begin container -->
+        <div class="container" style="height: 92px;">
+            <!-- begin row -->
+            <!--<div class="row">-->
+            <!--&lt;!&ndash; begin col-12 &ndash;&gt;-->
+            <!--<div class="col-md-12 quote">-->
+            <!--<i class="fa fa-quote-left"></i> Passion leads to design, design leads to performance, <br />-->
+            <!--performance leads to <span class="text-theme">success</span>!  -->
+            <!--<i class="fa fa-quote-right"></i>-->
+            <!--<small>Sean Themes, Developer Teams in Malaysia</small>-->
+            <!--</div>-->
+            <!--&lt;!&ndash; end col-12 &ndash;&gt;-->
+            <!--</div>-->
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end #quote -->
+
+    <!-- beign #product -->
+    <div id="product" class="content" data-scrollview="true">
+        <!-- begin container -->
+        <div class="container">
+            <h2 class="content-title">产品服务</h2>
+            <!-- <p class="content-desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur eros dolor,<br />
+                sed bibendum turpis luctus eget
+            </p> -->
+            <!-- begin row -->
+            <div class="row m-t-40 p-t-20">
+                <!-- begin col-4 -->
+                <div class="col-md-4 col-sm-4">
+                    <div class="service">
+                        <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn">
+                            <i class="fa fa-spinner"></i></div>
+                        <div class="info">
+                            <h4 class="title">市场罗盘</h4>
+                            <p class="desc">零售交易数据分析系统</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col-4 -->
+                <!-- begin col-4 -->
+                <div class="col-md-4 col-sm-4">
+                    <div class="service">
+                        <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn">
+                            <i class="fa fa-balance-scale"></i></div>
+                        <div class="info">
+                            <h4 class="title">价控卫士</h4>
+                            <p class="desc">零售领域市场价格管理系统</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col-4 -->
+                <!-- begin col-4 -->
+                <div class="col-md-4 col-sm-4">
+                    <div class="service">
+                        <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn">
+                            <i class="fa fa-pencil-square-o"></i></div>
+                        <div class="info">
+                            <h4 class="title">评价管家</h4>
+                            <p class="desc">网评数据分析系统</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col-4 -->
+            </div>
+            <!-- end row -->
+            <!-- begin row -->
+            <div class="row m-t-20">
+                <!-- begin col-4 -->
+                <div class="col-md-4 col-sm-4">
+                    <div class="service">
+                        <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn">
+                            <i class="fa fa-magic"></i></div>
+                        <div class="info">
+                            <h4 class="title">需求挖掘</h4>
+                            <p class="desc">消费者口碑分析系统</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col-4 -->
+                <!-- begin col-4 -->
+                <div class="col-md-4 col-sm-4">
+                    <div class="service">
+                        <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn">
+                            <i class="fa fa-television"></i></div>
+                        <div class="info">
+                            <h4 class="title">TV Video Tracker</h4>
+                            <p class="desc">用户行为实时分析平台</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col-4 -->
+                <!-- begin col-4 -->
+                <div class="col-md-4 col-sm-4">
+                    <div class="service">
+                        <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn">
+                            <i class="fa fa-th"></i></div>
+                        <div class="info">
+                            <h4 class="title">酒旅魔方</h4>
+                            <p class="desc">景区人流酒店数据模型</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col-4 -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end #about -->
+
+    <!-- beign #action-box -->
+    <div id="action-box" class="content has-bg" data-scrollview="true">
+        <!-- begin content-bg -->
+        <div class="content-bg" style="background-color: #0575e6; height: 560px;">
+
+        </div>
+        <!-- end content-bg -->
+        <!-- begin container -->
+        <div class="container text-center" style="height: 594px;">
+            <h2 class="content-title">数据优势</h2>
+            <!-- begin row -->
+            <!--<div class="row action-box">-->
+            <!--&lt;!&ndash; begin col-9 &ndash;&gt;-->
+            <!--<div class="col-md-9 col-sm-9">-->
+            <!--<div class="icon-large text-theme">-->
+            <!--<i class="fa fa-binoculars"></i>-->
+            <!--</div> -->
+            <!--<h3>CHECK OUT OUR ADMIN THEME!</h3>-->
+            <!--<p>-->
+            <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus magna eu lacinia eleifend.-->
+            <!--</p>-->
+            <!--</div>-->
+            <!--&lt;!&ndash; end col-9 &ndash;&gt;-->
+            <!--&lt;!&ndash; begin col-3 &ndash;&gt;-->
+            <!--<div class="col-md-3 col-sm-3">-->
+            <!--<a href="#" class="btn btn-outline btn-block">Live Preview</a>-->
+            <!--</div>-->
+            <!--&lt;!&ndash; end col-3 &ndash;&gt;-->
+            <!--</div>-->
+            <img src="assets/img/quote2.png" alt="Action"/>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end #action-box -->
+
+    <!-- beign #custom -->
+    <div id="custom" class="content" data-scrollview="true">
+        <!-- begin container -->
+        <div class="container">
+            <h2 class="content-title">我们的客户</h2>
+            <!-- begin carousel -->
+            <div class="carousel slide" data-ride="carousel" id="testimonials"
+                 style="padding-bottom: 70px;padding-top: 20px;">
+                <!-- begin carousel-inner -->
+                <div class="carousel-inner text-center">
+                    <!-- begin item -->
+                    <div class="item active" style="height: 50px;">
+                        <img src="assets/img/custom1.png" alt="custom1"/>
+                    </div>
+                    <!-- end item -->
+                    <!-- begin item -->
+                    <div class="item" style="height: 50px;">
+                        <img src="assets/img/custom2.png" alt="custom2"/>
+                    </div>
+                    <!-- end item -->
+                    <!-- begin item -->
+                    <div class="item" style="height: 50px;">
+                        <img src="assets/img/custom3.png" alt="custom3"/>
+                    </div>
+                    <!-- end item -->
+                    <!-- begin item -->
+                    <div class="item" style="height: 50px;">
+                        <img src="assets/img/custom4.png" alt="custom4"/>
+                    </div>
+                    <!-- end item -->
+                    <!-- begin item -->
+                    <div class="item" style="height: 50px;">
+                        <img src="assets/img/custom5.png" alt="custom5"/>
+                    </div>
+                    <!-- end item -->
+                </div>
+                <!-- end carousel-inner -->
+                <!-- begin carousel-indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#testimonials" data-slide-to="0" class="active"></li>
+                    <li data-target="#testimonials" data-slide-to="1" class=""></li>
+                    <li data-target="#testimonials" data-slide-to="2" class=""></li>
+                    <li data-target="#testimonials" data-slide-to="3" class=""></li>
+                    <li data-target="#testimonials" data-slide-to="4" class=""></li>
+                </ol>
+                <!-- end carousel-indicators -->
+                <!--&lt;!&ndash; Controls &ndash;&gt;-->
+                <!--<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">-->
+                <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
+                <!--<span class="sr-only">Previous</span>-->
+                <!--</a>-->
+                <!--<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">-->
+                <!--<span class="glyphicon glyphicon-chevron-right"></span>-->
+                <!--<span class="sr-only">Next</span>-->
+                <!--</a>-->
+                <!--</div>-->
+                <!--&lt;!&ndash; end carousel &ndash;&gt;-->
+            </div>
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end #custom -->
+
+    <!-- BEGIN #footer -->
+    <div id="footer" class="footer">
+        <!-- BEGIN container -->
+        <div class="container">
+            <!-- BEGIN row -->
+            <div class="row">
+                <!-- BEGIN col-3 -->
+                <!-- <div class="col-md-3">
+                    <h4 class="footer-header">ABOUT US</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tristique dolor, ac efficitur velit. Nulla lobortis tempus convallis. Nulla aliquam lectus eu porta pulvinar. Mauris semper justo erat.
+                    </p>
+                    <p>
+                        Vestibulum porttitor lorem et vestibulum pharetra. Phasellus sit amet mi congue, hendrerit mi ut, dignissim eros.
+                    </p>
+                </div> -->
+                <!-- END col-3 -->
+                <!-- BEGIN col-3 -->
+                <div class="col-md-3">
+                    <h4 class="footer-header">相关链接</h4>
+                    <ul class="fa-ul">
+                        <li><i class="fa fa-li fa-angle-right"></i> <a href="#">了解AVC</a></li>
+                        <li><i class="fa fa-li fa-angle-right"></i> <a href="#">媒体报道</a></li>
+                        <li><i class="fa fa-li fa-angle-right"></i> <a href="#">联系我们</a></li>
+                        <li><i class="fa fa-li fa-angle-right"></i> <a href="#">加入我们</a></li>
                     </ul>
                 </div>
-                <!-- end navbar-collapse -->
-            </div>
-            <!-- end container -->
-        </div>
-        <!-- end #header -->
-        
-        <!-- begin #home -->
-        <div id="home" class="content has-bg home">
-            <!-- begin content-bg -->
-            <div class="content-bg">
-                <img src="assets/img/home-bg.png" alt="Home" />
-            </div>
-            <!-- end content-bg -->
-            <!-- begin container -->
-            <div class="container home-content">
-                <h1>奥维云网（AVC）</h1>
-                <h3>垂直领域大数据技术与应用服务商</h3>
-                <!-- <p>
-                    We have created a multi-purpose theme that take the form of One-Page or Multi-Page Version.<br />
-                    Use our <a href="#">theme panel</a> to select your favorite theme color.
-                </p>
-                <a href="#" class="btn btn-theme">Explore More</a> <a href="#" class="btn btn-outline">Purchase Now</a><br />
-                <br />
-                or <a href="#">subscribe</a> newsletter -->
-            </div>
-            <!-- end container -->
-        </div>
-        <!-- end #home -->
-        
-        <!-- begin #team -->
-        <div id="solution" class="content" data-scrollview="true">
-            <!-- begin container -->
-            <div class="container">
-                <h2 class="content-title">解决方案</h2>
-                <!-- <p class="content-desc">
-                    Phasellus suscipit nisi hendrerit metus pharetra dignissim. Nullam nunc ante, viverra quis<br /> 
-                    ex non, porttitor iaculis nisi.
-                </p> -->
-                <!-- begin row -->
-                <div class="row m-t-40">
-                    <!-- begin col-4 -->
-                    <div class="col-md-4 col-sm-4">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-1.jpg" alt="Ryan Teller" />
-                            </div>
-                            <div class="info">
-                                <h4 class="name">零售大数据</h4>
-                                <p>为企业呈现多维度的、直观的、可查询的数据体系，包含交易数据、价格管控、评论分析、口碑洞察等</p>
-                            </div>                     
-                        </div>
-                        <!-- end team -->
-                    </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-4 col-sm-4">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-2.jpg" alt="Jonny Cash" />
-                            </div>
-                            <div class="info">
-                                <h4 class="name">用户大数据</h4>
-                                <p>通过与国内主流的电视机、OTT盒子、IPTV盒子终端厂商进行数据对接，客观、系统性采集用户从开机到关机间的所有观看行为</p>
-                            </div>                     
-                        </div>
-                        <!-- end team -->
-                    </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-4 col-sm-4">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-3.jpg" alt="Mia Donovan" />
-                            </div>
-                            <div class="info">
-                                <h4 class="name">大数据技术和应用平台</h4>
-                                <p>基于用户的业务需求设计大数据系统架构和开发实施，帮助企业搭建大数据平台 </p>
-                            </div>                     
-                        </div>
-                        <!-- end team -->
-                    </div>
-                    <!-- end col-4 -->
+                <!-- END col-3 -->
+                <!-- BEGIN col-3 -->
+                <div class="col-md-3">
+                    <h4 class="footer-header">联系我们</h4>
+                    <address>
+                        <strong>北京奥维云网大数据科技股份有限公司</strong><br/><br/>
+                        北京市朝阳区惠河南街1008-B四惠大厦<br/>
+                        3033-3038W房间（100124）<br/><br/>
+                        <abbr title="Phone">总机:</abbr> 010-52510800<br/>
+                        <!-- <abbr title="Fax">Fax:</abbr> (123) 456-7891<br /> -->
+                        <abbr title="Email">Email:</abbr> <a href="mailto:info@avc-mr.com">info@avc-mr.com</a><br/>
+                    </address>
                 </div>
-                <!-- end row -->
-                <!-- begin row -->
-                <div class="row m-t-40">
-                    <!-- begin col-4 -->
-                    <div class="col-md-4 col-sm-4">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-1.jpg" alt="Ryan Teller" />
-                            </div>
-                            <div class="info">
-                                <h4 class="name">酒旅大数据</h4>
-                                <p>采用高密度数据采集、高效的数据处理平台及深度集成的算法，研发了景区人流量预测、酒店品牌价值及价格分析等模型</p>
-                            </div>                     
-                        </div>
-                        <!-- end team -->
+                <!-- END col-3 -->
+                <!-- BEGIN col-3 -->
+                <div class="col-md-3 text-center">
+                    <h4 class="footer-header"><i class="fa fa-weibo" aria-hidden="true"></i>关注微博</h4>
+                    <div class="image" style="width:120px;height: 120px;display: inline-block;">
+                        <img src="assets/img/weibocode.png" alt="" style="max-width: 100%;"/>
                     </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-4 col-sm-4">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-2.jpg" alt="Jonny Cash" />
-                            </div>
-                            <div class="info">
-                                <h4 class="name">地产大数据</h4>
-                                <p>对房地产领域土地出让信息、新建项目地块信息，以及相关的家装、精装市场及其配套部品产业链跟踪研究</p>
-                            </div>                     
-                        </div>
-                        <!-- end team -->
-                    </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-4 col-sm-4">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-3.jpg" alt="Mia Donovan" />
-                            </div>
-                            <div class="info">
-                                <h4 class="name">工业大数据</h4>
-                                <p>以大数据思维和技术能力，帮助企业提升大数据资产价值、打造“智慧工厂”、实现“智能制造”的大数据基础设施与应用平台 </p>
-                            </div>                     
-                        </div>
-                        <!-- end team -->
-                    </div>
-                    <!-- end col-4 -->
                 </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-        </div>
-        <!-- end #team -->
-        
-        <!-- begin #quote -->
-        <div id="quote" class="content bg-black-darker has-bg" data-scrollview="true" >
-            <!-- begin content-bg -->
-            <div class="content-bg">
-                <img src="assets/img/quote.png" alt="Quote" />
-            </div>
-            <!-- end content-bg -->
-            <!-- begin container -->
-            <div class="container" style="height: 92px;">
-                <!-- begin row -->
-                <!--<div class="row">-->
-                    <!--&lt;!&ndash; begin col-12 &ndash;&gt;-->
-                    <!--<div class="col-md-12 quote">-->
-                        <!--<i class="fa fa-quote-left"></i> Passion leads to design, design leads to performance, <br />-->
-                        <!--performance leads to <span class="text-theme">success</span>!  -->
-                        <!--<i class="fa fa-quote-right"></i>-->
-                        <!--<small>Sean Themes, Developer Teams in Malaysia</small>-->
-                    <!--</div>-->
-                    <!--&lt;!&ndash; end col-12 &ndash;&gt;-->
-                <!--</div>-->
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-        </div>
-        <!-- end #quote -->
-        
-        <!-- beign #product -->
-        <div id="product" class="content" data-scrollview="true">
-            <!-- begin container -->
-            <div class="container">
-                <h2 class="content-title">产品服务</h2>
-                <!-- <p class="content-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur eros dolor,<br />
-                    sed bibendum turpis luctus eget
-                </p> -->
-                <!-- begin row -->
-                <div class="row m-t-40">
-                    <!-- begin col-4 -->
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service">
-                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-cog"></i></div>
-                            <div class="info">
-                                <h4 class="title">市场罗盘</h4>
-                                <p class="desc">零售交易数据分析系统</p>
-                            </div>
-                        </div>
+                <!-- END col-3 -->
+                <!-- BEGIN col-3 -->
+                <div class="col-md-3 text-center">
+                    <h4 class="footer-header"><i class="fa fa-weixin" aria-hidden="true"></i>关注微信</h4>
+                    <div class="image" style="width:120px;height: 120px;display: inline-block;">
+                        <img src="assets/img/weibocode.png" alt="" style="max-width: 100%;"/>
                     </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service">
-                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-paint-brush"></i></div>
-                            <div class="info">
-                                <h4 class="title">价控卫士</h4>
-                                <p class="desc">零售领域市场价格管理系统</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service">
-                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-file"></i></div>
-                            <div class="info">
-                                <h4 class="title">评价管家</h4>
-                                <p class="desc">网评数据分析系统</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col-4 -->
                 </div>
-                <!-- end row -->
-                <!-- begin row -->
-                <div class="row m-t-20">
-                    <!-- begin col-4 -->
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service">
-                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-code"></i></div>
-                            <div class="info">
-                                <h4 class="title">需求挖掘</h4>
-                                <p class="desc">消费者口碑分析系统</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service">
-                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-shopping-cart"></i></div>
-                            <div class="info">
-                                <h4 class="title">TV Video Tracker</h4>
-                                <p class="desc">用户行为实时分析平台</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service">
-                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-heart"></i></div>
-                            <div class="info">
-                                <h4 class="title">酒旅魔方</h4>
-                                <p class="desc">景区人流酒店数据模型</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col-4 -->
-                </div>
-                <!-- end row -->
+                <!-- END col-3 -->
             </div>
-            <!-- end container -->
+            <!-- END row -->
         </div>
-        <!-- end #about -->
-        
-        <!-- beign #action-box -->
-        <div id="action-box" class="content has-bg" data-scrollview="true">
-            <!-- begin content-bg -->
-            <div class="content-bg" style="background-color: #0575e6; height: 560px;">
-
-            </div>
-            <!-- end content-bg -->
-            <!-- begin container -->
-            <div class="container text-center" style="height: 594px;">
-                <h2 class="content-title">数据优势</h2>
-                <!-- begin row -->
-                <!--<div class="row action-box">-->
-                    <!--&lt;!&ndash; begin col-9 &ndash;&gt;-->
-                    <!--<div class="col-md-9 col-sm-9">-->
-                        <!--<div class="icon-large text-theme">-->
-                            <!--<i class="fa fa-binoculars"></i>-->
-                        <!--</div> -->
-                        <!--<h3>CHECK OUT OUR ADMIN THEME!</h3>-->
-                        <!--<p>-->
-                           <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus magna eu lacinia eleifend.-->
-                        <!--</p>-->
-                    <!--</div>-->
-                    <!--&lt;!&ndash; end col-9 &ndash;&gt;-->
-                    <!--&lt;!&ndash; begin col-3 &ndash;&gt;-->
-                    <!--<div class="col-md-3 col-sm-3">-->
-                        <!--<a href="#" class="btn btn-outline btn-block">Live Preview</a>-->
-                    <!--</div>-->
-                    <!--&lt;!&ndash; end col-3 &ndash;&gt;-->
-                <!--</div>-->
-                <img src="assets/img/quote2.png" alt="Action" />
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-        </div>
-        <!-- end #action-box -->
-        
-        <!-- beign #custom -->
-        <div id="custom" class="content" data-scrollview="true">
-            <!-- begin container -->
-            <div class="container">
-                <h2 class="content-title">我们的客户</h2>
-                <!-- <p class="content-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur eros dolor,<br />
-                    sed bibendum turpis luctus eget
-                </p> -->
-                <!-- begin row -->
-                <div class="row m-t-40">
-                    <!-- begin col-4 -->
-                    <div class="col-md-2 col-sm-2">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-1.jpg" alt="Ryan Teller" />
-                            </div>
-                            <!-- <div class="info">
-                                <h3 class="name">零售大数据</h3>
-                                <p>为企业呈现多维度的、直观的、可查询的数据体系，包含交易数据、价格管控、评论分析、口碑洞察等</p>
-                            </div>  -->                    
-                        </div>
-                        <!-- end team -->
-                    </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-2 col-sm-2">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-2.jpg" alt="Jonny Cash" />
-                            </div>
-                            <!-- <div class="info">
-                                <h3 class="name">用户大数据</h3>
-                                <p>通过与国内主流的电视机、OTT盒子、IPTV盒子终端厂商进行数据对接，客观、系统性采集用户从开机到关机间的所有观看行为</p>
-                            </div>   -->                   
-                        </div>
-                        <!-- end team -->
-                    </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-2 col-sm-2">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-3.jpg" alt="Mia Donovan" />
-                            </div>
-                            <!-- <div class="info">
-                                <h3 class="name">大数据技术和应用平台</h3>
-                                <p>基于用户的业务需求设计大数据系统架构和开发实施，帮助企业搭建大数据平台 </p>
-                            </div>    -->                  
-                        </div>
-                        <!-- end team -->
-                    </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-2 col-sm-2">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-1.jpg" alt="Ryan Teller" />
-                            </div>
-                            <!-- <div class="info">
-                                <h3 class="name">零售大数据</h3>
-                                <p>为企业呈现多维度的、直观的、可查询的数据体系，包含交易数据、价格管控、评论分析、口碑洞察等</p>
-                            </div>  -->                    
-                        </div>
-                        <!-- end team -->
-                    </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-2 col-sm-2">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-2.jpg" alt="Jonny Cash" />
-                            </div>
-                            <!-- <div class="info">
-                                <h3 class="name">用户大数据</h3>
-                                <p>通过与国内主流的电视机、OTT盒子、IPTV盒子终端厂商进行数据对接，客观、系统性采集用户从开机到关机间的所有观看行为</p>
-                            </div>   -->                   
-                        </div>
-                        <!-- end team -->
-                    </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-2 col-sm-2">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-3.jpg" alt="Mia Donovan" />
-                            </div>
-                            <!-- <div class="info">
-                                <h3 class="name">大数据技术和应用平台</h3>
-                                <p>基于用户的业务需求设计大数据系统架构和开发实施，帮助企业搭建大数据平台 </p>
-                            </div>    -->                  
-                        </div>
-                        <!-- end team -->
-                    </div>
-                    <!-- end col-4 -->
-                </div>
-                <!-- end row -->
-                <!-- begin row -->
-                <div class="row m-t-40">
-                    <!-- begin col-4 -->
-                    <div class="col-md-2 col-sm-2">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-1.jpg" alt="Ryan Teller" />
-                            </div>
-                        </div>
-                        <!-- end team -->
-                    </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-2 col-sm-2">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-2.jpg" alt="Jonny Cash" />
-                            </div>
-                        </div>
-                        <!-- end team -->
-                    </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-2 col-sm-2">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-3.jpg" alt="Mia Donovan" />
-                            </div>
-                        </div>
-                        <!-- end team -->
-                    </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-2 col-sm-2">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-1.jpg" alt="Ryan Teller" />
-                            </div>
-                        </div>
-                        <!-- end team -->
-                    </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-2 col-sm-2">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-2.jpg" alt="Jonny Cash" />
-                            </div>
-                        </div>
-                        <!-- end team -->
-                    </div>
-                    <!-- end col-4 -->
-                    <!-- begin col-4 -->
-                    <div class="col-md-2 col-sm-2">
-                        <!-- begin team -->
-                        <div class="team">             
-                            <div class="image" data-animation="true" data-animation-type="flipInX">
-                                <img src="assets/img/user-3.jpg" alt="Mia Donovan" />
-                            </div>
-                        </div>
-                        <!-- end team -->
-                    </div>
-                    <!-- end col-4 -->
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-        </div>
-        <!-- end #about -->
-        <!-- begin #client -->
-        <div id="client" class="content has-bg bg-green" data-scrollview="true">
-            <!-- begin content-bg -->
-            <div class="content-bg">
-                <img src="assets/img/client-bg.jpg" alt="Client" />
-            </div>
-            <!-- end content-bg -->
-            <!-- begin container -->
-            <div class="container" data-animation="true" data-animation-type="fadeInUp">
-                <h2 class="content-title">Our Client Testimonials</h2>
-                <!-- begin carousel -->
-                <div class="carousel testimonials slide" data-ride="carousel" id="testimonials">
-                    <!-- begin carousel-inner -->
-                    <div class="carousel-inner text-center">
-                        <!-- begin item -->
-                        <div class="item active">
-                            <blockquote>
-                                <i class="fa fa-quote-left"></i>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra, nulla ut interdum fringilla,<br />
-                                urna massa cursus lectus, eget rutrum lectus neque non ex.
-                                <i class="fa fa-quote-right"></i>
-                            </blockquote>
-                            <div class="name"> — <span class="text-theme">Mark Doe</span>, Designer</div>
-                        </div>
-                        <!-- end item -->
-                        <!-- begin item -->
-                        <div class="item">
-                            <blockquote>
-                                <i class="fa fa-quote-left"></i>
-                                Donec cursus ligula at ante vulputate laoreet. Nulla egestas sit amet lorem non bibendum.<br />
-                                Nulla eget risus velit. Pellentesque tincidunt velit vitae tincidunt finibus.
-                                <i class="fa fa-quote-right"></i>
-                            </blockquote>
-                            <div class="name"> — <span class="text-theme">Joe Smith</span>, Developer</div>
-                        </div>
-                        <!-- end item -->
-                        <!-- begin item -->
-                        <div class="item">
-                            <blockquote>
-                                <i class="fa fa-quote-left"></i>
-                                Sed tincidunt quis est sed ultrices. Sed feugiat auctor ipsum, sit amet accumsan elit vestibulum<br />
-                                fringilla. In sollicitudin ac ligula eget vestibulum.
-                                <i class="fa fa-quote-right"></i>
-                            </blockquote>
-                            <div class="name"> — <span class="text-theme">Linda Adams</span>, Programmer</div>
-                        </div>
-                        <!-- end item -->
-                    </div>
-                    <!-- end carousel-inner -->
-                    <!-- begin carousel-indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#testimonials" data-slide-to="0" class="active"></li>
-                        <li data-target="#testimonials" data-slide-to="1" class=""></li>
-                        <li data-target="#testimonials" data-slide-to="2" class=""></li>
-                    </ol>
-                    <!-- end carousel-indicators -->
-                </div>
-                <!-- end carousel -->
-            </div>
-            <!-- end containter -->
-        </div>
-        <!-- end #client -->
-        
-        <!-- BEGIN #footer -->
-        <div id="footer" class="footer">
-            <!-- BEGIN container -->
-            <div class="container">
-                <!-- BEGIN row -->
-                <div class="row">
-                    <!-- BEGIN col-3 -->
-                    <!-- <div class="col-md-3">
-                        <h4 class="footer-header">ABOUT US</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tristique dolor, ac efficitur velit. Nulla lobortis tempus convallis. Nulla aliquam lectus eu porta pulvinar. Mauris semper justo erat. 
-                        </p>
-                        <p>
-                            Vestibulum porttitor lorem et vestibulum pharetra. Phasellus sit amet mi congue, hendrerit mi ut, dignissim eros.
-                        </p>
-                    </div> -->
-                    <!-- END col-3 -->
-                    <!-- BEGIN col-3 -->
-                    <div class="col-md-3">
-                        <h4 class="footer-header">相关链接</h4>
-                        <ul class="fa-ul">
-                            <li><i class="fa fa-li fa-angle-right"></i> <a href="#">了解AVC</a></li>
-                            <li><i class="fa fa-li fa-angle-right"></i> <a href="#">媒体报道</a></li>
-                            <li><i class="fa fa-li fa-angle-right"></i> <a href="#">联系我们</a></li>
-                            <li><i class="fa fa-li fa-angle-right"></i> <a href="#">加入我们</a></li>
-                        </ul>
-                    </div>
-                    <!-- END col-3 -->
-                    <!-- BEGIN col-3 -->
-                    <div class="col-md-3">
-                        <h4 class="footer-header">联系我们</h4>
-                        <address>
-                            <strong>北京奥维云网大数据科技股份有限公司</strong><br /><br />
-                            北京市朝阳区惠河南街1008-B四惠大厦<br />
-                            3033-3038W房间（100124）<br /><br />
-                            <abbr title="Phone">总机:</abbr> 010-52510800<br />
-                            <!-- <abbr title="Fax">Fax:</abbr> (123) 456-7891<br /> -->
-                            <abbr title="Email">Email:</abbr> <a href="mailto:info@avc-mr.com">info@avc-mr.com</a><br />
-                        </address>
-                    </div>
-                    <!-- END col-3 -->
-                    <!-- BEGIN col-3 -->
-                    <div class="col-md-3 text-center">
-                        <h4 class="footer-header"><i class="fa fa-weibo" aria-hidden="true"></i>关注微博</h4>
-                        <div class="image" style="width:120px;height: 120px;display: inline-block;">
-                                    <img src="assets/img/weibocode.png" alt="" style="max-width: 100%;" />
-                                </div>
-                    </div>
-                    <!-- END col-3 -->
-                    <!-- BEGIN col-3 -->
-                    <div class="col-md-3 text-center">
-                        <h4 class="footer-header"><i class="fa fa-weixin" aria-hidden="true"></i>关注微信</h4>
-                       <div class="image" style="width:120px;height: 120px;display: inline-block;">
-                                    <img src="assets/img/weibocode.png" alt="" style="max-width: 100%;"/>
-                                </div>
-                    </div>
-                    <!-- END col-3 -->
-                </div>
-                <!-- END row -->
-            </div>
-            <!-- END container -->
-        </div>
-        <!-- END #footer -->
-    
-        <!-- BEGIN #footer-copyright -->
-        <div id="footer-copyright" class="footer-copyright">
-            <!-- BEGIN container -->
-            <div class="container text-center">
-                <div class="copyright">
-                    Copyright &copy; 2016 奥维云网.版权所有 京ICP备05065762号
-                </div>
-            </div>
-            <!-- END container -->
-        </div>
-        <!-- END #footer-copyright -->
-        
+        <!-- END container -->
     </div>
-    <!-- end #page-container -->
-	
-	<!-- ================== BEGIN BASE JS ================== -->
-	<script src="assets/plugins/jquery/jquery-1.9.1.min.js"></script>
-	<script src="assets/plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
-	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-	<!--[if lt IE 9]>
-		<script src="assets/crossbrowserjs/html5shiv.js"></script>
-		<script src="assets/crossbrowserjs/respond.min.js"></script>
-		<script src="assets/crossbrowserjs/excanvas.min.js"></script>
-	<![endif]-->
-	<script src="assets/plugins/jquery-cookie/jquery.cookie.js"></script>
-	<script src="assets/plugins/scrollMonitor/scrollMonitor.js"></script>
-	<script src="assets/js/apps.min.js"></script>
-	<!-- ================== END BASE JS ================== -->
-	
-	<script>    
-	    $(document).ready(function() {
-	        App.init();
-	    });
-	</script>
+    <!-- END #footer -->
+
+    <!-- BEGIN #footer-copyright -->
+    <div id="footer-copyright" class="footer-copyright">
+        <!-- BEGIN container -->
+        <div class="container text-center">
+            <div class="copyright">
+                Copyright &copy; 2016 奥维云网.版权所有 京ICP备05065762号
+            </div>
+        </div>
+        <!-- END container -->
+    </div>
+    <!-- END #footer-copyright -->
+
+</div>
+<!-- end #page-container -->
+
+<!-- ================== BEGIN BASE JS ================== -->
+<script src="assets/plugins/jquery/jquery-1.9.1.min.js"></script>
+<script src="assets/plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!--[if lt IE 9]>
+<script src="assets/crossbrowserjs/html5shiv.js"></script>
+<script src="assets/crossbrowserjs/respond.min.js"></script>
+<script src="assets/crossbrowserjs/excanvas.min.js"></script>
+<![endif]-->
+<script src="assets/plugins/jquery-cookie/jquery.cookie.js"></script>
+<script src="assets/plugins/scrollMonitor/scrollMonitor.js"></script>
+<script src="assets/js/apps.min.js"></script>
+<!-- ================== END BASE JS ================== -->
+
+<script>
+    $(document).ready(function () {
+        App.init();
+    });
+</script>
 </body>
 </html>

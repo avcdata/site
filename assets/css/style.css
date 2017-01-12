@@ -11128,3 +11128,28 @@ p {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+.carousel-indicators li {
+  width: 70px;
+  height: 1px;
+  background-color: #b4b6b7;
+  border: none;
+}
+.carousel-indicators li.active {
+  width: 70px;
+  height: 1px;
+  background-color: #0575e6;
+}
+.home-content {
+  top: 54%;
+}
+.home-content h2,
+.home-content p {
+  margin-bottom: 25px;
+}
+.home-content p {
+  color: #ffffff;
+}
+.btn.btn-outline {
+  border-width: 1px;
+  border-color: #ffffff;
+}
