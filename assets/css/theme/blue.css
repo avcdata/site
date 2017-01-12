@@ -61,3 +61,6 @@ a:focus {
 .footer-copyright {
   background: #0575e6;
 }
+.content .content-title:after {
+  background: #0575e6;
+}
